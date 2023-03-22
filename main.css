@@ -22,4 +22,19 @@ ul h3{
 iframe{
     display:block;
     margin: 5px auto;
+    width: 80vw;
+    height: 45vw;
+}
+
+figure img{
+    width: 70vw;
+    border: 1px blue solid;
+}
+
+
+@media screen and (min-width: 570px){
+    iframe{
+        width: 560px;
+        height: 312px;
+    }
 }
