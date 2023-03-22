@@ -1,3 +1,20 @@
+body{
+    padding: 5px;
+}
+
+li {
+    padding: 0.2rem;
+}
+
 li::marker{
     font-weight: 700;
+}
+
+
+ul{
+    padding-inline-start: 5px;
+}
+
+ul h3{
+    margin: 1rem 1rem 1rem 0rem; 
 }
