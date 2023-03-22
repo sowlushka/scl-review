@@ -1,4 +1,4 @@
-body{
+body {
     padding: 5px;
 }
 
@@ -6,35 +6,59 @@ li {
     padding: 0.2rem;
 }
 
-li::marker{
+li::marker {
     font-weight: 700;
 }
 
 
-ul{
+ul {
     padding-inline-start: 5px;
 }
 
-ul h3{
-    margin: 1rem 1rem 1rem 0rem; 
+ul h3 {
+    margin: 1rem 1rem 1rem 0rem;
 }
 
-iframe{
-    display:block;
+iframe {
+    display: block;
     margin: 5px auto;
     width: 80vw;
     height: 45vw;
 }
 
-figure img{
-    width: 70vw;
+figure img {
+    width: 90vw;
     border: 1px blue solid;
+    display: block;
+    margin: 5px;
+}
+
+#catalyst img {
+    margin: auto;
+}
+
+@keyframes chng_clrs {
+    from {
+        background-color: #eb0e0e;
+        color: #404040;
+    }
+
+    to {
+        background-color: #FFFFFF;
+        color: black;
+    }
 }
 
 
-@media screen and (min-width: 570px){
-    iframe{
+@media screen and (min-width: 570px) {
+    iframe {
         width: 560px;
         height: 312px;
     }
+
+    figure img {
+        width: 560px;
+        border: 1px blue solid;
+    }
+
 }
